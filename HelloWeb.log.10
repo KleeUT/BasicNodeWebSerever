@@ -1,0 +1,14 @@
+[2014-12-22 21:18:01.880] [DEBUG] [default] - Received request for path: /favicon.ico
+[2014-12-22 21:18:01.881] [DEBUG] [default] - favicon.icofavicon.ico
+[2014-12-22 21:18:01.881] [TRACE] [default] - Reading from /favicon.ico
+[2014-12-22 21:22:28.749] [DEBUG] [default] - Received request for path: /
+[2014-12-22 21:22:28.750] [DEBUG] [default] - 
+[2014-12-22 21:22:28.750] [DEBUG] [default] - index page handler
+[2014-12-22 21:22:28.750] [TRACE] [default] - Reading from /static/HelloWorld.html
+[2014-12-22 21:22:28.781] [DEBUG] [default] - Received request for path: /static/css/main.css
+[2014-12-22 21:22:28.781] [DEBUG] [default] - staticstatic,css,main.css
+[2014-12-22 21:22:28.782] [TRACE] [default] - Reading from /static/css/main.css
+[2014-12-22 21:22:28.783] [DEBUG] [default] - Received request for path: /static/js/HelloWorld.js
+[2014-12-22 21:22:28.784] [DEBUG] [default] - staticstatic,js,HelloWorld.js
+[2014-12-22 21:22:28.784] [TRACE] [default] - Reading from /static/js/HelloWorld.js
+[2014-12-22 21:22:31.220] [DEBUG] [default] - Received request for path: /favicon.ico

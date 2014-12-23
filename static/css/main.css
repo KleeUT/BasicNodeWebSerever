@@ -1,4 +1,44 @@
-body {
-background-color:purple;
-    color:gray;
+body{
+    font-size:large;
+    background-color: antiquewhite;
+}
+
+table{
+    border-collapse: collapse;
+    margin:auto;
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+td{
+    cursor:pointer;
+    padding:10px;
+    border:0;
+}
+
+tr{
+    background:#BBBBBB;
+    text-align:center;
+    border:1px solid #FFFFFF;
+}
+
+table tr:hover{
+    background:#AA00aa;
+}
+
+div.clickableButton{
+    background:#AA00aa;
+    cursor: pointer;
+    width:100px;
+    padding:25px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+div.clickableButton:hover{
+    background:#DD88DD;
+    color:#000000;
 }

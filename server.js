@@ -3,18 +3,39 @@ var server = http.createServer();
 var url = require('url');
 var provider = require('./static/StaticResourceProvider');
 
+var log4js = require('log4js');
+log4js.configure({
+    appenders: [
+        { type: 'console' },
+        {
+            type: 'file',
+            filename: 'HelloWeb.log',
+            maxLogSize: 1024,
+            backups:10
+        }
+    ]
+});
+
+var logger = log4js.getLogger();
+var requestMap = {
+    'favicon.ico':favIcon,
+    'static':staticTextResourceResponder,
+    "":indexResponseHandler,
+    "query":handleQuery,
+};
 server.on('request', function(request, response){
     try {
+
         var requestUrl = url.parse(request.url);
         var pathName = requestUrl.pathname;
 
-        console.log("Received request for path: " + pathName);
+        logger.debug("Received request for path: " + pathName);
 
         var pathComponents = getPathComponents(pathName);
         var pathToRespondTo = pathComponents[0];
         var responder;
 
-        console.log(pathToRespondTo + pathComponents.toString());
+        logger.debug(pathToRespondTo + pathComponents.toString());
         if (pathToRespondTo == undefined) {
             responder = requestMap[""]
         }
@@ -26,13 +47,13 @@ server.on('request', function(request, response){
             response.writeHead(404);
             var message = "Could not find responder for " + pathToRespondTo + ' it was ' + responder;
             response.end(message);
-            console.log(message);
+            logger.debug(message);
         } else {
             responder(request, response);
         }
     }catch(err){
-        console.log("error processing request " + request);
-        console.log(err);
+        logger.error("error processing request " + request);
+        logger.error(err);
         response.writeHead(500);
         response.end("Exception occured return to <a href='/'>home</a>");
     }
@@ -41,7 +62,7 @@ server.on('request', function(request, response){
 server.listen(8080);
 
 function favIcon(request, response){
-    var resourceName = "./favicon.ico";
+    var resourceName = "/favicon.ico";
     provider.respondWithResource(resourceName, response);
 }
 
@@ -52,11 +73,21 @@ function staticTextResourceResponder(request, response){
 }
 
 function indexResponseHandler(request, response){
-    console.log("index page handler");
+    logger.debug("index page handler");
     provider.respondWithResource("/static/HelloWorld.html", response);
 }
 
 function getPathComponents(path){
     return path.substring(1,path.length).split("/");
+}
+
+function handleQuery(request, response){
+    response.end(JSON.stringify( [
+        { "Name" : "Alfred Pennyworth", "City" : "Gotahm", "Country" : "DC"},
+        { "Name" : "Oliver Queen", "City" : "Starling City", "Country" : "DC"},
+        { "Name" : "Barry Allen", "City" : "Central City", "Country" : "DC"},
+        { "Name" : "Tony Stark", "City" : "USA", "Country" : "Marvel"}
+
+    ]));
 }
 
