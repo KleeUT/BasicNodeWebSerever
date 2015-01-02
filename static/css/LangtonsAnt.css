@@ -1,0 +1,81 @@
+body{
+    background-color: #AAA;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+div.heading{
+    font-family: sans-serif;
+    background-color:#666;
+    width: 100%;
+    color:#DAD;
+    padding:5px 0;
+    border-radius: 7px;
+    border:2px solid #999;
+    margin:10px auto;
+}
+input{
+    padding:5px;
+    font-size:20px;
+    margin:10px;
+}
+button{
+    background-color: #AA00AA;
+    color: #DAD;
+    padding:5px;
+    font-size:20px;
+    margin:10px;
+    cursor: pointer;
+    border: #DAD;
+}
+div.board{
+    margin:auto;
+    border:2px black solid;
+    text-align:center;
+    /*width:80%;*/
+    background-color: #000;
+    display:inline-block;
+}
+.main{
+    width:100%;
+    text-align: center;
+}
+span.box{
+    cursor: pointer;
+    border:1px #AAA solid;
+    position:relative;
+    height:15px;
+    width:15px;
+    margin:0 5px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+span.on{
+    background-color: #999;
+}
+span.off{
+    background-color:#303;
+}
+span.wall{
+    background-color:#555;
+}
+
+span.ant{
+    border-color: #F00;
+}
+
+span.ant.north{
+    background: url('/static/img/north.png')
+}
+
+span.ant.south{
+    background: url('/static/img/south.png')
+}
+
+span.ant.east{
+    background: url('/static/img/east.png')
+}
+
+span.ant.west{
+    background: url('/static/img/west.png')
+}
