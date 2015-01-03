@@ -100,6 +100,10 @@ function Cell(active, contains){
     }
 }
 
+function WalledBoard(x,y){
+
+}
+
 function Wall(){
     return new Cell(false, "wall");
 }

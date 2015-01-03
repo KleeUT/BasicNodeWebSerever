@@ -9,7 +9,7 @@ log4js.configure({
         { type: 'console' },
         {
             type: 'file',
-            filename: 'HelloWeb.log',
+            filename: './logs/SandBox.log',
             maxLogSize: 1024,
             backups:10
         }
@@ -21,7 +21,7 @@ var requestMap = {
     'favicon.ico':favIcon,
     'static':staticTextResourceResponder,
     "":indexResponseHandler,
-    "query":handleQuery,
+    "query":handleQuery
 };
 server.on('request', function(request, response){
     try {
@@ -74,7 +74,7 @@ function staticTextResourceResponder(request, response){
 
 function indexResponseHandler(request, response){
     logger.debug("index page handler");
-    provider.respondWithResource("/static/HelloWorld.html", response);
+    provider.respondWithResource("/static/html/Index.html", response);
 }
 
 function getPathComponents(path){

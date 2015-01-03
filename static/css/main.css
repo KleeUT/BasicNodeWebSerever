@@ -1,44 +1,24 @@
 body{
     font-size:large;
-    background-color: antiquewhite;
+    background-color: #faebd7;
+    font-family: sans-serif;
 }
 
-table{
-    border-collapse: collapse;
-    margin:auto;
-}
-table tr:nth-child(odd) {
-    background-color: #f1f1f1;
-}
-table tr:nth-child(even) {
-    background-color: #ffffff;
-}
-td{
-    cursor:pointer;
-    padding:10px;
-    border:0;
+div.topic{
+    background-color: #DDD;
+    border: 3px #8b4513;
+    border-style: groove;
+    width: 80%;
+    margin:  2% auto;
+    padding: 2%;
+    border-radius:1%;
 }
 
-tr{
-    background:#BBBBBB;
+div.avatar{
+    text-wrap: avoid;
+}
+
+h1{
+    color:#303;
     text-align:center;
-    border:1px solid #FFFFFF;
-}
-
-table tr:hover{
-    background:#AA00aa;
-}
-
-div.clickableButton{
-    background:#AA00aa;
-    cursor: pointer;
-    width:100px;
-    padding:25px;
-    text-align: center;
-    color:#FFFFFF;
-}
-
-div.clickableButton:hover{
-    background:#DD88DD;
-    color:#000000;
 }

@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd0a9a7-9341-4a5b-86f9-e110b18148dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/east.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/north.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/south.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/west.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/LangtonsAnt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/html/LangtonsAnt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/LangtonsAnt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.10" afterPath="$PROJECT_DIR$/HelloWeb.log.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.1" afterPath="$PROJECT_DIR$/HelloWeb.log.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.2" afterPath="$PROJECT_DIR$/HelloWeb.log.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.3" afterPath="$PROJECT_DIR$/HelloWeb.log.3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.4" afterPath="$PROJECT_DIR$/HelloWeb.log.4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.5" afterPath="$PROJECT_DIR$/HelloWeb.log.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.6" afterPath="$PROJECT_DIR$/HelloWeb.log.6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.7" afterPath="$PROJECT_DIR$/HelloWeb.log.7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.8" afterPath="$PROJECT_DIR$/HelloWeb.log.8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWeb.log.9" afterPath="$PROJECT_DIR$/HelloWeb.log.9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/HelloWorld.html" afterPath="$PROJECT_DIR$/static/HelloWorld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/avatar.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/sandbackground.jpg" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.4" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.7" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\HelloWeb.log.9" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/LangtonsAnt.js" afterPath="$PROJECT_DIR$/static/js/LangtonsAnt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWebpage.iws" />
@@ -44,34 +41,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LangtonsAnt.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/html/LangtonsAnt.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.076923" vertical-offset="205" max-vertical-offset="748">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LangtonsAnt.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/LangtonsAnt.css">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4450172" vertical-offset="302" max-vertical-offset="1462">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state vertical-scroll-proportion="-13.461538" vertical-offset="143" max-vertical-offset="918">
+              <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LangtonsAnt.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/LangtonsAnt.js">
+      <file leaf-file-name="IndexController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/IndexController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="2244">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,13 +91,17 @@
         <option value="$PROJECT_DIR$/HelloWeb.log" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/test.js" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/static/js/HelloWorld.js" />
         <option value="$PROJECT_DIR$/static/HelloWorld.html" />
         <option value="$PROJECT_DIR$/static/css/LangtonsAnt.css" />
-        <option value="$PROJECT_DIR$/static/js/LangtonsAnt.js" />
         <option value="$PROJECT_DIR$/static/html/LangtonsAnt.html" />
+        <option value="$PROJECT_DIR$/static/js/LangtonsAnt.js" />
+        <option value="$PROJECT_DIR$/static/js/indexController.js" />
+        <option value="$PROJECT_DIR$/static/html/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/static/html/Index.html" />
+        <option value="$PROJECT_DIR$/static/js/IndexController.js" />
       </list>
     </option>
   </component>
@@ -230,29 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWebpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicNodeWebSerever" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,9 +243,9 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad/bin/git.exe" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -277,6 +254,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\Javascript\Node-Projects\BasicWebServer\BasicNodeWebSerever\static\img" />
       <recent name="C:\Development\Javascript\Node-Projects\HelloWebpage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -386,20 +364,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847682" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275401" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14927346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18449198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18449198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -637,34 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1265" max-vertical-offset="1683">
-          <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6252189" vertical-offset="9051" max-vertical-offset="10370">
           <caret line="587" column="16" selection-start-line="587" selection-start-column="16" selection-end-line="587" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="833">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/HelloWorld.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -679,10 +633,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/HelloWorld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/LangtonsAnt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="2244">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="67" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -691,16 +653,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/LangtonsAnt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.076923" vertical-offset="205" max-vertical-offset="748">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12781955" vertical-offset="0" max-vertical-offset="748">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/SandBox.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33212996" vertical-offset="768" max-vertical-offset="1683">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/LangtonsAnt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4450172" vertical-offset="302" max-vertical-offset="1462">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.6718213" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.461538" vertical-offset="143" max-vertical-offset="918">
+          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/IndexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
