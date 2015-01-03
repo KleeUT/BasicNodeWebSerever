@@ -2,48 +2,65 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Klee UT's Sand Box</title>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="/static/js/IndexController.js"></script>
-    <link rel="stylesheet" href="/static/css/main.css" type="text/css"/>
+    <!--<link rel="stylesheet" href="/static/css/main.css" type="text/css"/>-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body ng-app="IndexApp" ng-controller="IndexController">
 
-<div class="topic">
-    <h1>Welcome</h1>
-    My name is Klee Thomas and this is my Sand Box. - A place where I'm working on and testing ideas and applications.
-    If you're looking for information about me or what I do you're probably better off looking somewhere else.
+<div class="container">
+    <div class="row">
+        <div class="jumbotron">
+        <h1>Welcome</h1>
+        My name is Klee Thomas and this is my Sand Box. - A place where I'm working on and testing ideas and
+        applications.
+        If you're looking for information about me or what I do you're probably better off looking somewhere else.
+        </div>
     </div>
-<div class="topic">
-    <h1>Find Me</h1>
-    <ul>
-        <li>
-            <a href="http://kleeut.blogspot.com.au/">Blogging</a>
-        </li>
-        <li>
-            on <a href="https://twitter.com/KleeUT">Twitter</a>
-        </li>
-        <li>
-            on <a href="https://github.com/KleeUT">Git Hub</a>. Where you can find the code underpinning any of the tests here.
-        </li>
-        <li>
-            Attending, helping to organise and occasionally presenting at <a href="http://www.ncg.asn.au/">NCGAU - Newcastle Coders Group</a>
-        </li>
-        <li>
-            By email {{email_part1}}{{email_part2}}{{email_part3}}
-        </li>
-    </ul>
-</div>
+    <div class="row">
+        <h1>Find Me</h1>
+        <ul>
+            <li>
+                <a href="http://kleeut.blogspot.com.au/">Blogging</a>
+            </li>
+            <li>
+                on <a href="https://twitter.com/KleeUT">Twitter</a>
+            </li>
+            <li>
+                on <a href="https://github.com/KleeUT">Git Hub</a>. Where you can find the code underpinning any of the
+                tests here.
+            </li>
+            <li>
+                Attending, helping to organise and occasionally presenting at <a href="http://www.ncg.asn.au/">NCGAU -
+                Newcastle Coders Group</a>
+            </li>
+            <li>
+                By email {{email_part1}}{{email_part2}}{{email_part3}}
+            </li>
+        </ul>
+    </div>
 
-<div class="topic">
-    <h1>Sand Box</h1>
-    <h2>Projects</h2>
-    <ul ng-repeat="project in projects">
-        <li>
-            <a href="{{project.relativePath}}">{{project.name}}</a>
-        </li>
-    </ul>
-</div>
+    <div class="row">
+        <h1>Sand Box</h1>
 
+        <h2>Projects</h2>
+        <ul ng-repeat="project in projects">
+            <li>
+                <a href="{{project.relativePath}}">{{project.name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
