@@ -65,17 +65,17 @@ span.ant{
 }
 
 span.ant.north{
-    background: url('/static/img/north.png')
+    background: url('/static/img/langtonsAnt/north.png')
 }
 
 span.ant.south{
-    background: url('/static/img/south.png')
+    background: url('/static/img/langtonsAnt/south.png')
 }
 
 span.ant.east{
-    background: url('/static/img/east.png')
+    background: url('/static/img/langtonsAnt/east.png')
 }
 
 span.ant.west{
-    background: url('/static/img/west.png')
+    background: url('/static/img/langtonsAnt/west.png')
 }

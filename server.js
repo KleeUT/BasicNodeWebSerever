@@ -62,7 +62,7 @@ server.on('request', function(request, response){
 server.listen(8080);
 
 function favIcon(request, response){
-    var resourceName = "/favicon.ico";
+    var resourceName = "/static/img/avatars/avatar.ico";
     provider.respondWithResource(resourceName, response);
 }
 
