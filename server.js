@@ -6,13 +6,7 @@ var provider = require('./static/StaticResourceProvider');
 var log4js = require('log4js');
 log4js.configure({
     appenders: [
-        { type: 'console' },
-        {
-            type: 'file',
-            filename: './logs/SandBox.log',
-            maxLogSize: 1024,
-            backups:10
-        }
+        { type: 'console' }
     ]
 });
 
