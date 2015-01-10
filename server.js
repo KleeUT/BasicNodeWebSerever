@@ -59,7 +59,7 @@ server.on('request', function(request, response){
     }
 });
 
-server.listen(8080);
+server.listen(process.env.PORT || 5000);
 
 function favIcon(request, response){
     var resourceName = "/static/img/avatars/avatar.ico";

@@ -1,24 +1,8 @@
-body{
-    font-size:large;
-    background-color: #faebd7;
-    font-family: sans-serif;
+ul{
+    list-style: square;
 }
 
-div.topic{
-    background-color: #DDD;
-    border: 3px #8b4513;
-    border-style: groove;
-    width: 80%;
-    margin:  2% auto;
-    padding: 2%;
-    border-radius:1%;
-}
-
-div.avatar{
-    text-wrap: avoid;
-}
-
-h1{
-    color:#303;
-    text-align:center;
+img.pageHeaderIcon{
+    height:50px;
+    padding:5px;
 }

@@ -16,22 +16,45 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.co=m/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+        .linkBox{
+            max-width:350px
+            text-align:center;
+        }
+    </style>
 </head>
 <body ng-app="IndexApp" ng-controller="IndexController">
 
 <div class="container">
     <div class="row">
         <div class="jumbotron">
-        <h1>Welcome</h1>
-        My name is Klee Thomas and this is my Sand Box. - A place where I'm working on and testing ideas and
-        applications.
-        If you're looking for information about me or what I do you're probably better off looking somewhere else.
+            <h1>KleeUT</h1>
+            Husband, Home Owner, Developer, Clean Code Enthusiast and Procrastinator.
         </div>
     </div>
     <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-4 ">
+            <a href="/static/html/AboutMe.html">
+                <img src="/static/img/avatars/avatar.png" class="linkBox" alt="KleeUt's Avatar -> About Klee"/>
 
-    </div>
+                <h2>About Klee</h2>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4 ">
+            <a href="/static/html/FindMe.html" class="linkBox">
+                <img src="/static/img/find.png" alt="Magnifying glas -> Find Klee"/>
 
+                <h2>Find Klee</h2>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4 linkBox">
+            <a href="/static/html/SandBox.html">
+                    <img src="/static/img/sandCastle.gif" alt="A sand castle for the sand box"
+                         style="height:300px; "/>
+
+                    <h2>Sand Box</h2>
+        </div>
+</div>
 
 </div>
 </body>
