@@ -7,20 +7,20 @@ var commandHandler = require('./domain/CommandHandler.js');
 var log4js = require('log4js');
 log4js.configure({
     appenders: [
-        { type: 'console' }
+        {type: 'console'}
     ]
 });
 
 var log = log4js.getLogger();
 var requestMap = {
-    'favicon.ico':favIcon,
-    'static':staticResourceResponder,
-    "":indexResponseHandler,
-    "query":handleQuery,
-    "command":commandParser,
-    "404":fourZeroFourResponder
+    'favicon.ico': favIcon,
+    'static': staticResourceResponder,
+    "": indexResponseHandler,
+    "query": handleQuery,
+    "command": commandParser,
+    "404": fourZeroFourResponder
 };
-server.on('request', function(request, response){
+server.on('request', function (request, response) {
     try {
 
         var requestUrl = url.parse(request.url);
@@ -44,8 +44,8 @@ server.on('request', function(request, response){
             log.warn("Could not find responder for " + pathToRespondTo + ' it was ' + responder);
             responder = requestMap["404"]
         }
-            responder(request, response);
-    }catch(err){
+        responder(request, response);
+    } catch (err) {
         log.error("error processing request " + request);
         log.error(err);
         response.writeHead(500);
@@ -55,51 +55,51 @@ server.on('request', function(request, response){
 
 server.listen(process.env.PORT || 5000);
 
-function favIcon(request, response){
+function favIcon(request, response) {
     var resourceName = "/static/img/avatars/avatar.ico";
     provider.respondWithResource(resourceName, response);
 }
 
-function staticResourceResponder(request, response){
+function staticResourceResponder(request, response) {
     var requestUrl = url.parse(request.url);
     var pathName = requestUrl.pathname;
     provider.respondWithResource(pathName, response);
 }
 
-function indexResponseHandler(request, response){
+function indexResponseHandler(request, response) {
     log.debug("index page handler");
     provider.respondWithResource("/static/html/Index.html", response);
 }
 
-function getPathComponents(path){
-    return path.substring(1,path.length).split("/");
+function getPathComponents(path) {
+    return path.substring(1, path.length).split("/");
 }
 
-function handleQuery(request, response){
-    dataAccess.heroManager.loadAllHeroes(function(err, data){
-        if(err){
+function handleQuery(request, response) {
+    dataAccess.heroManager.loadAllHeroes(function (err, data) {
+        if (err) {
             response.end("QueryFailure " + err.toString());
         }
         response.end(JSON.stringify(data));
     });
 }
 
-function commandParser(request, response){
-    if(request.method == "POST"){
-    var requestUrl = url.parse(request.url);
-    var rawPath = requestUrl.pathname;
-    var secondSlash = rawPath.indexOf('/',1);
-    var command = rawPath.substring(secondSlash + 1, rawPath.length);
-    var commandObject = JSON.parse(requestUrl.query);
-    log.debug("Received " + command + " with data " + commandObject.toString());
-    commandHandler[command](commandObject);
-    }else{
+function commandParser(request, response) {
+    if (request.method == "POST") {
+        var requestUrl = url.parse(request.url);
+        var rawPath = requestUrl.pathname;
+        var secondSlash = rawPath.indexOf('/', 1);
+        var command = rawPath.substring(secondSlash + 1, rawPath.length);
+        var commandObject = JSON.parse(requestUrl.query);
+        log.debug("Received " + command + " with data " + commandObject.toString());
+        commandHandler[command](commandObject);
+    } else {
         log.warn("Non post command received");
         response.end("Nope")
     }
 }
 
-function fourZeroFourResponder(request, response){
+function fourZeroFourResponder(request, response) {
     response.writeHead(404);
     provider.respondWithResource("/static/html/exceptions/FourOhFour.html", response);
 }
