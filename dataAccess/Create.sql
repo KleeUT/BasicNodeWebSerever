@@ -1,0 +1,1 @@
+create table TestTable(name varchar(200), city varchar(200), universe varchar(200));

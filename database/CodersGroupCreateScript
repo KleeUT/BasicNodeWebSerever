@@ -1,0 +1,11 @@
+createdatabase codersGroupAttenance;
+use codersGroupAttenance;
+
+create table attendees; ---
+create table role;
+create table meeting;
+create table meeting_attendee_role;
+create table tags;
+create table meeting_tags;
+create table prize;
+create table prize_meeting_winningAttendee;
