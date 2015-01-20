@@ -1,14 +1,10 @@
+// INFO: This is a sample test using Mocha
+var assert = require('assert');
+describe('Array', function(){
+    describe('#indexOf()', function(){
+        it('should return -1 when teh value is not present', function(){
+            assert.equal(-1, [1,2,3].indexOf(1));
+        })
+    })
 
-exports.testSomething = function(test){
-    test.expect(1);
-    test.ok(true, "this assertion should pass");
-    test.done();
-};
-
-exports.testSubstring = function(test){
-    var raw = "/command/create";
-    var secondSlash = raw.indexOf('/',1);
-    var sub = raw.substring(secondSlash + 1, raw.length);
-    test.ok(sub.equals("create", "aaa"));
-};
-
+});
