@@ -15,5 +15,6 @@ function sendFileContentsAsResponse(fileName, response){
     }else{
         response.writeHead(404);
         logger.warn("404 - could not locate resource for path " + fileName);
+        require('fs').createReadStream("./static/html/exceptions/FourOhFour.html").pipe(response);
     }
 }

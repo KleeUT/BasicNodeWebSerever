@@ -12,10 +12,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.co=m/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.co=m/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="/static/js/SandBoxController.js"></script>
     <script src="/static/js/sandbox/CommandQueryTestController.js"></script>
 </head>
-<body>
-
+<body ng-app="SandBoxApp" ng-controller="CommandQueryTestController">
+<div class="container">
+<div class="jumbotron">
+    <h1>Testing Querying the database and Commanding the application</h1>
+</div>
+<div class="row">
+    <h2>Create Hero</h2>
+    <form class="form-inline" role="form" >
+    <input ng-model="heroName" placeholder="Hero Name" class="form-control"/>
+    <input ng-model="heroCity" placeholder="Hero City" class="form-control"/>
+    <input ng-model="heroUniverse" placeholder="Hero Universe" class="form-control"/>
+    <button ng-click="saveHero()"  class="btn btn-default">Save</button>
+    </form>
+</div>
+<div class="row">
+    <h2>All Heroes</h2>
+<ul ng-repeat="hero in allHeroes">
+    <li>
+        {{hero.name}}, {{hero.city}}, {{hero.universe}}
+    </li>
+</ul>
+</div>
+</div>
 </body>
 </html>

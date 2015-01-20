@@ -86,13 +86,25 @@ function handleQuery(request, response) {
 
 function commandParser(request, response) {
     if (request.method == "POST") {
-        var requestUrl = url.parse(request.url);
-        var rawPath = requestUrl.pathname;
-        var secondSlash = rawPath.indexOf('/', 1);
-        var command = rawPath.substring(secondSlash + 1, rawPath.length);
-        var commandObject = JSON.parse(requestUrl.query);
-        log.debug("Received " + command + " with data " + commandObject.toString());
-        commandHandler[command](commandObject);
+        var dataChunks = [];
+        var dataString = "";
+        request.on('data',function(data){
+            dataChunks.push(data);
+            dataString += data.toString();
+        });
+        request.on('end',function(){
+            var requestUrl = url.parse(request.url);
+            var rawPath = requestUrl.pathname;
+            var secondSlash = rawPath.indexOf('/', 1);
+            var command = rawPath.substring(secondSlash + 1, rawPath.length);
+            //var commandObject = JSON.parse(requestUrl.query);
+            var commandObject = JSON.parse(dataString);
+            log.debug("Received " + command + " with data " + commandObject.toString());
+
+            commandHandler[command](commandObject);
+            response.writeHead("200");
+            response.end();
+        });
     } else {
         log.warn("Non post command received");
         response.end("Nope")
