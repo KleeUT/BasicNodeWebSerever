@@ -16,8 +16,12 @@ function createHeroHandler(hero){
         errors.push("Must have a universe")
     }
     if(errors.length == 0) {
-        dataAccess.heroManager.upsertHero(hero);
+        dataAccess.heroManager.insertHero(hero);
     }else{
         log.warn("Errors creating hero " + hero.toString() + " : " + errors.toString())
     }
+}
+
+function test(){
+
 }

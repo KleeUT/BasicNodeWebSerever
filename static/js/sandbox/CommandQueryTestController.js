@@ -26,13 +26,9 @@ app.controller("CommandQueryTestController", function($scope, $http){
     }
 
     function sendCreateHeroCommand(name, city, universe){
-        $http.post("/command/createHero",{name:name, city:city, universe:universe})
-            .success(function(){
-                alert("woo");
-            })
-            .error(function(){
-                alert("poo");
-            });
+        $http.post("/command/createHero",{name:name, city:city, universe:universe}).success(function(){
+            window.location.reload(); // todo: push notifications
+        });
     }
 
 });
