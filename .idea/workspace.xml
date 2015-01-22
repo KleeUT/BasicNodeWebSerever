@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd0a9a7-9341-4a5b-86f9-e110b18148dd" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Development\Javascript\Node-Projects\SandBox\static\img\sandbackground.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/sandCastle.gif" afterPath="$PROJECT_DIR$/static/img/sandCastle.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/CommandHandler.js" afterPath="$PROJECT_DIR$/domain/CommandHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/sandbox/CommandQueryTestController.js" afterPath="$PROJECT_DIR$/static/js/sandbox/CommandQueryTestController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataAccess/dataAccess.js" afterPath="$PROJECT_DIR$/dataAccess/dataAccess.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/html/AboutMe.html" afterPath="$PROJECT_DIR$/static/html/AboutMe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/html/FindMe.html" afterPath="$PROJECT_DIR$/static/html/FindMe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/html/SandBox.html" afterPath="$PROJECT_DIR$/static/html/SandBox.html" />
     </list>
     <ignored path="HelloWebpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,21 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CommandQueryTestController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/sandbox/CommandQueryTestController.js">
+      <file leaf-file-name="AboutMe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/AboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7172557" vertical-offset="148" max-vertical-offset="663">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+            <state vertical-scroll-proportion="-8.5" vertical-offset="323" max-vertical-offset="1003">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataAccess.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataAccess/dataAccess.js">
+      <file leaf-file-name="FindMe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/FindMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="986">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.3846154" vertical-offset="369" max-vertical-offset="1122">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SandBox.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/html/SandBox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7032967" vertical-offset="241" max-vertical-offset="901">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -78,10 +85,7 @@
         <option value="$PROJECT_DIR$/static/js/FindMeController.js" />
         <option value="$PROJECT_DIR$/static/js/HelloWorld.js" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/static/html/SandBox.html" />
         <option value="$PROJECT_DIR$/static/html/Index.html" />
-        <option value="$PROJECT_DIR$/static/html/AboutMe.html" />
-        <option value="$PROJECT_DIR$/static/html/FindMe.html" />
         <option value="$PROJECT_DIR$/procfile" />
         <option value="$PROJECT_DIR$/database/CodersGroupCreateScript" />
         <option value="$PROJECT_DIR$/dataAccess/Create.sql" />
@@ -99,6 +103,9 @@
         <option value="$PROJECT_DIR$/test/domain/CommandHandler.tests.js" />
         <option value="$PROJECT_DIR$/dataAccess/dataAccess.js" />
         <option value="$PROJECT_DIR$/static/js/sandbox/CommandQueryTestController.js" />
+        <option value="$PROJECT_DIR$/static/html/AboutMe.html" />
+        <option value="$PROJECT_DIR$/static/html/FindMe.html" />
+        <option value="$PROJECT_DIR$/static/html/SandBox.html" />
       </list>
     </option>
   </component>
@@ -221,6 +228,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWebpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SandBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,6 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,23 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/SandBox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="901">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/FindMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.769231" vertical-offset="403" max-vertical-offset="1122">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="452">
@@ -784,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/AboutMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="15" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/html/sandbox/CommandQueryTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.923077" vertical-offset="131" max-vertical-offset="816">
@@ -836,18 +838,42 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/sandbox/CommandQueryTestController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7172557" vertical-offset="148" max-vertical-offset="663">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataAccess/dataAccess.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="986">
+        <state vertical-scroll-proportion="0.22245322" vertical-offset="131" max-vertical-offset="986">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/sandbox/CommandQueryTestController.js">
+    <entry file="file://$PROJECT_DIR$/static/html/AboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7172557" vertical-offset="148" max-vertical-offset="663">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+        <state vertical-scroll-proportion="-8.5" vertical-offset="323" max-vertical-offset="1003">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/FindMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3846154" vertical-offset="369" max-vertical-offset="1122">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/SandBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7032967" vertical-offset="241" max-vertical-offset="901">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding />
         </state>
       </provider>
