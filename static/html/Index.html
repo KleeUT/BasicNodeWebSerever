@@ -2,12 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Klee UT's Sand Box</title>
+    <title>Klee's Projects</title>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
-    <script src="/static/js/IndexController.js"></script>
-    <!--<link rel="stylesheet" href="/static/css/main.css" type="text/css"/>-->
+    <script src="/static/js/SandBoxApp.js"></script>
+    <link rel="stylesheet" href="/static/css/main.css" type="text/css"/>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
@@ -16,46 +14,35 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.co=m/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <style>
-        .linkBox{
-            max-width:350px
-            text-align:center;
-        }
-    </style>
 </head>
-<body ng-app="IndexApp" ng-controller="IndexController">
-
+<body ng-app="SandBoxApp" ng-controller="IndexController">
 <div class="container">
+    <div class="jumbotron text-center">
+        <h1>Welcome to my Sandbox.</h1>
+        <p>
+            If you're looking for information on KleeUT you should probably look somewhere else. Start with <a href="http://kleeut.github.io">my page on GitHub</a> and go from there.
+        </p>
+    </div>
+    <div class="page-header">
+        <h1>Sand Box</h1>
+    </div>
+
     <div class="row">
-        <div class="jumbotron">
-            <h1>KleeUT</h1>
-            Husband, Home Owner, Developer, Clean Code Enthusiast and Procrastinator.
+        <div class="co1-xs-12 col-sm-12 col-md-6">
+            <img src="/static/img/sandCastle.gif" alt="A sand castle" style="width:300px"/>
+        </div>
+        <div class="co1-xs-12 col-sm-12 col-md-6">
+        <h1>Projects</h1>
+        <ul ng-repeat="project in projects">
+            <li>
+                <a href="{{project.relativePath}}">{{project.name}}</a>
+                <div>
+                    {{project.description}}
+                </div>
+            </li>
+        </ul>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-4 ">
-            <a href="/static/html/AboutMe.html">
-                <img src="/static/img/avatars/avatar.png" class="linkBox" alt="KleeUt's Avatar -> About Klee"/>
-
-                <h2>About Klee</h2>
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 ">
-            <a href="/static/html/FindMe.html" class="linkBox">
-                <img src="/static/img/find.png" alt="Magnifying glas -> Find Klee"/>
-
-                <h2>Find Klee</h2>
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 linkBox">
-            <a href="/static/html/SandBox.html">
-                    <img src="/static/img/sandCastle.gif" alt="A sand castle for the sand box"
-                         style="height:300px; "/>
-
-                    <h2>Sand Box</h2>
-        </div>
-</div>
-
 </div>
 </body>
 </html>

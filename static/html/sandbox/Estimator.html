@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My Sweet Estimator</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <link rel="stylesheet" href="/static/css/sandbox/Estimator.css" type="text/css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.co=m/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="/static/js/SandBoxApp.js"></script>
+    <script src="/static/js/sandbox/EstimatorApp.js"></script>
+</head>
+<body ng-app="EstimatorApp" ng-controller="EstimatorController">
+<div class="container">
+<div class="jumbotron text-center">
+    <h1>My Sweet Estimator</h1>
+    <h2>A fool proof app to help you estimate any task you're asked to.</h2>
+    <p>Have you ever been asked how long something was going to take and just had no idea? Of course you have.
+        If you're a software developer chances are this has happend to you today.
+        The good news is that I can present to you
+    the My Sweet Estimator.</p>
+    <p>My Sweet Estimator will give you an estimate 100% of the time.</p>
+    <p style="font-size:small">Of course we cant garunteed that it will be in any way accurate.  But it will be an estimate</p>
+</div>
+<div class="main row text-center">
+    <p>{{units}}  {{exponent}}  {{measure}}</p>
+    <button class="btn-primary" ng-click="estimate()">Give me another!</button>
+</div>
+</div>
+</body>
+</html>
