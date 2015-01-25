@@ -14,6 +14,7 @@ log4js.configure({
 var log = log4js.getLogger();
 var requestMap = {
     'favicon.ico': favIcon,
+    'robots.txt': robots,
     'static': staticResourceResponder,
     "": indexResponseHandler,
     "query": handleQuery,
@@ -26,13 +27,12 @@ server.on('request', function (request, response) {
         var requestUrl = url.parse(request.url);
         var pathName = requestUrl.pathname;
 
-        log.debug("Received request for path: " + pathName);
+        log.debug("Received request for path: " + pathName + " from " + request.connection.remoteAddress + " referred by " + request.headers.referrer);
 
         var pathComponents = getPathComponents(pathName);
         var pathToRespondTo = pathComponents[0];
         var responder;
 
-        log.debug(pathToRespondTo + pathComponents.toString());
         if (pathToRespondTo == undefined) {
             responder = requestMap[""]
         }
@@ -41,7 +41,7 @@ server.on('request', function (request, response) {
         }
 
         if (responder == null || responder == undefined) {
-            log.warn("Could not find responder for " + pathToRespondTo + ' it was ' + responder);
+            log.warn("Could not find responder for " + pathToRespondTo + ' responding with 404 ' );
             responder = requestMap["404"]
         }
         responder(request, response);
@@ -49,7 +49,7 @@ server.on('request', function (request, response) {
         log.error("error processing request " + request);
         log.error(err);
         response.writeHead(500);
-        response.end("<html>Exception occurred return to <a href='/'>home</a> <br />For more information check the logs</html>");
+        response.end("<html><body>Exception occurred return to <a href='/'>home</a> <br />For more information check the logs</body></html>");
     }
 });
 
@@ -57,6 +57,12 @@ server.listen(process.env.PORT || 5000);
 
 function favIcon(request, response) {
     var resourceName = "/static/img/avatars/avatar.ico";
+    provider.respondWithResource(resourceName, response);
+}
+
+
+function robots(request, response) {
+    var resourceName = "/robots.txt";
     provider.respondWithResource(resourceName, response);
 }
 

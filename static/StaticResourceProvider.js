@@ -1,7 +1,6 @@
 var logger = require('log4js').getLogger();
 module.exports =  {
     respondWithResource: function (queryPath, response){
-        logger.trace("Reading from " + queryPath);
         sendFileContentsAsResponse("." + queryPath, response);
     }
 };
