@@ -1,7 +1,7 @@
 var app = angular.module("EstimatorApp",[]);
 app.controller("EstimatorController", function($scope){
     var unitOptions = [1,2,3,5,8];
-    var exponentOptions = ["", "Slave", "Child", "Man", "King", "Monkey", "Unicorn"];
+    var exponentOptions = ["", "Slave", "Man", "Long", "Short", "Monkey", "Unicorn"];
     var measureOptions = ["Hours","Days","Weeks","Months"];
     $scope.estimate = function(){
         $scope.units = getAnEstimateFrom(unitOptions);
