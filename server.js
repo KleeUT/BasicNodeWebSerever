@@ -19,6 +19,7 @@ var requestMap = {
     "": indexResponseHandler,
     "query": handleQuery,
     "command": commandParser,
+    "ncgau": loadGiveAwayPage,
     "404": fourZeroFourResponder
 };
 server.on('request', function (request, response) {
@@ -120,5 +121,10 @@ function commandParser(request, response) {
 function fourZeroFourResponder(request, response) {
     response.writeHead(404);
     provider.respondWithResource("/static/html/exceptions/FourOhFour.html", response);
+}
+
+function loadGiveAwayPage(request, response){
+    provider.respondWithResource("/static/html/sandbox/giveaway/index.html", response);
+
 }
 
