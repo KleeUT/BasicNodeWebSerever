@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Step Step - A Geme Of Pre-programmed Movement</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="/static/js/sandbox/giveaway/ncgauLicenceGiveAway.js"></script>
+    <style>
+        body{
+            font-size:xx-large;
+        }
+        button{
+            font-size:xx-large;
+        }
+
+        input{
+            font-size:x-large;
+        }
+
+    </style>
+</head>
+<body ng-app="GiveAwayApp" ng-controller="GiveAwayController">
+<div class="container">
+    <div class="jumbotron text-center">
+        <form class="form" action="#">
+            <input type="text" class="input" placeholder="Attendee Name" ng-model="attendeeToAdd"/><br />
+            <button class="btn btn-primary btn-lg" ng-click="addAttendee()" >Add</button>
+            <div ng-show="error">
+                {{error}}
+            </div>
+
+        </form>
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <ul>
+            <li ng-repeat="attendee in attendees">{{attendee}}</li>
+        </ul>
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <div ng-show="attendees.length > 0">
+        <input ng-model="prize" placeholder="Prize" /><button class="btn btn-danger btn-lg" ng-click="selectAttendee()" >Select</button>
+        </div>
+        <ol >
+            <li ng-repeat="selection in selectedAttendees">{{selection.attendee}} {{selection.prize}}</li>
+        </ol>
+    </div>
+</div>
+</body>
+</html>
